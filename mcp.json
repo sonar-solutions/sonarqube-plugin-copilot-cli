@@ -2,8 +2,7 @@
   "mcpServers": {
     "sonarqube": {
       "command": "sonar",
-      "args": ["run", "mcp"],
-      "env": {}
+      "args": ["run", "mcp"]
     }
   }
 }
