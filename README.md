@@ -3,7 +3,7 @@
 ## TL;DR overview
 
 * The SonarQube plugin for GitHub Copilot CLI brings quality gate, dependency risk, coverage, and issue checks into Copilot CLI through dedicated slash commands.
-* SonarQube plugin skills assists terminal-driven Copilot workflows where there’s no editor UI in the loop.
+* SonarQube plugin skills assist terminal-driven Copilot workflows where there’s no editor UI in the loop.
 * SonarQube Agentic Analysis findings and fixes compress the development cycle from CLI prompting and PR-time review to analysis, remediation, and verification in one terminal session.
 * Setup installs the SonarQube plugin and CLI, then wires the SonarQube MCP Server into Copilot CLI so the agent can reach the SonarQube analysis engine.
 
