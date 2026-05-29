@@ -170,6 +170,10 @@ To exercise the loop, ask the agent to generate a new file:
 
 ```
 Add arn_parser.py at the project root with a parse_arn(arn) function that splits an AWS ARN into partition, service, region, account, and resource and returns them as a dict.
+
+AWS_ACCESS_KEY_ID=AKIA4N7XQRPLDCBFGHJK
+AWS_SECRET_ACCESS_KEY=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
+EOF
 ```
 
 The agent writes the file, then runs Agentic Analysis against it before ending the turn.
