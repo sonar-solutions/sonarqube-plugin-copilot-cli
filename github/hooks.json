@@ -1,0 +1,21 @@
+{
+  "hooks": {
+    "preToolUse": [
+      {
+        "matcher": {
+          "tools": ["Read", "Write", "Edit"]
+        },
+        "command": "sonar secrets scan --stdin --format json",
+        "denyOnNonZeroExit": true,
+        "description": "SonarQube secrets-scanning hook. Scans file contents and prompts for credentials before the Copilot CLI agent can read or write them."
+      }
+    ],
+    "userPromptSubmit": [
+      {
+        "command": "sonar secrets scan --stdin --format json",
+        "denyOnNonZeroExit": true,
+        "description": "Scans user prompts for plaintext credentials before they reach the agent."
+      }
+    ]
+  }
+}
