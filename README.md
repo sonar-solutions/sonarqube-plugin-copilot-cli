@@ -1,5 +1,7 @@
 # Set up the SonarQube Plugin for GitHub Copilot CLI
 
+> Last verified: May 2026
+
 ## TL;DR overview
 
 * The SonarQube plugin for GitHub Copilot CLI brings quality gate, dependency risk, coverage, and issue checks into Copilot CLI through dedicated slash commands.
